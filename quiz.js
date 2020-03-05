@@ -67,7 +67,7 @@ startQuiz = () => {
 getNewQuestion = () => {
     if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
 
-        return window.location.assign("/end.html");
+        return window.location.assign("https://jviccora.github.io/week-4-hw/end.html");
     }
     questionCounter++;
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
