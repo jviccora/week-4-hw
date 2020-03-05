@@ -26,5 +26,5 @@ saveHighScore = e => {
     highScores.splice(5);
 
     localStorage.setItem("highScores", JSON.stringify(highScores));
-    window.location.assign("/");
+    window.location.assign("https://jviccora.github.io/week-4-hw/index.html");
 };
