@@ -52,7 +52,7 @@ var interval = setInterval(function() {
 
         alert("You're out of time!");
 
-        return window.location.assign("/end.html")
+        return window.location.assign("https://jviccora.github.io/week-4-hw/end.html")
     }
 
 }, 1000);
